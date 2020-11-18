@@ -1,0 +1,24 @@
+Prerequisites- 
+
+1) Start a m5 large ec2 instance (so we have enough memory) -
+
+2) Download and unzip Kafka from here - 
+	wget http://mirror.nbtelecom.com.br/apache/kafka/2.5.0/kafka_2.13-2.5.0.tgz
+
+3) Download and unzip Spark from here - 
+	wget https://apache.cs.utah.edu/spark/spark-2.4.5/spark-2.4.5-bin-hadoop2.7.tgz
+
+4) Install JAVA (used by spark)
+
+5) Insall Python
+
+6) Set the Java Home variable
+	For example: export JAVE_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64/
+
+7) Set the python env variable for pyspark
+	For example: export PYSPARK_PYTHON=python3
+
+8) Set the inbound rules for the ec2 instance so it can accept incoming connections from your machine (to check the spark master web page)
+
+9) Follow the steps as shown in the demo video - (will be uploaded by Professor Sahu)
+	you can also access it here - https://drive.google.com/open?id=1muln6s0ohvOrAmis8UXFTIWYZbRiH0bQ
